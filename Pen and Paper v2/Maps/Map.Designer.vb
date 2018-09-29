@@ -1062,153 +1062,191 @@ Partial Class Map
         '
         'E10
         '
+        Me.E10.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_10
         Me.E10.Location = New System.Drawing.Point(250, 500)
         Me.E10.Name = "E10"
         Me.E10.Size = New System.Drawing.Size(50, 50)
+        Me.E10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E10.TabIndex = 173
         Me.E10.TabStop = False
         '
         'E9
         '
+        Me.E9.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_9
         Me.E9.Location = New System.Drawing.Point(250, 450)
         Me.E9.Name = "E9"
         Me.E9.Size = New System.Drawing.Size(50, 50)
+        Me.E9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E9.TabIndex = 172
         Me.E9.TabStop = False
         '
         'E8
         '
+        Me.E8.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_8
         Me.E8.Location = New System.Drawing.Point(250, 400)
         Me.E8.Name = "E8"
         Me.E8.Size = New System.Drawing.Size(50, 50)
+        Me.E8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E8.TabIndex = 171
         Me.E8.TabStop = False
         '
         'E7
         '
+        Me.E7.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_7
         Me.E7.Location = New System.Drawing.Point(250, 350)
         Me.E7.Name = "E7"
         Me.E7.Size = New System.Drawing.Size(50, 50)
+        Me.E7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E7.TabIndex = 170
         Me.E7.TabStop = False
         '
         'E6
         '
+        Me.E6.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_6
         Me.E6.Location = New System.Drawing.Point(250, 300)
         Me.E6.Name = "E6"
         Me.E6.Size = New System.Drawing.Size(50, 50)
+        Me.E6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E6.TabIndex = 169
         Me.E6.TabStop = False
         '
         'E5
         '
+        Me.E5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_5
         Me.E5.Location = New System.Drawing.Point(250, 250)
         Me.E5.Name = "E5"
         Me.E5.Size = New System.Drawing.Size(50, 50)
+        Me.E5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E5.TabIndex = 168
         Me.E5.TabStop = False
         '
         'E4
         '
+        Me.E4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_4
         Me.E4.Location = New System.Drawing.Point(250, 200)
         Me.E4.Name = "E4"
         Me.E4.Size = New System.Drawing.Size(50, 50)
+        Me.E4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E4.TabIndex = 167
         Me.E4.TabStop = False
         '
         'E3
         '
+        Me.E3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_3
         Me.E3.Location = New System.Drawing.Point(250, 150)
         Me.E3.Name = "E3"
         Me.E3.Size = New System.Drawing.Size(50, 50)
+        Me.E3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E3.TabIndex = 166
         Me.E3.TabStop = False
         '
         'E2
         '
+        Me.E2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_2
         Me.E2.Location = New System.Drawing.Point(250, 100)
         Me.E2.Name = "E2"
         Me.E2.Size = New System.Drawing.Size(50, 50)
+        Me.E2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E2.TabIndex = 165
         Me.E2.TabStop = False
         '
         'E1
         '
+        Me.E1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.E_1
         Me.E1.Location = New System.Drawing.Point(250, 50)
         Me.E1.Name = "E1"
         Me.E1.Size = New System.Drawing.Size(50, 50)
+        Me.E1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.E1.TabIndex = 164
         Me.E1.TabStop = False
         '
         'D10
         '
+        Me.D10.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_10
         Me.D10.Location = New System.Drawing.Point(200, 500)
         Me.D10.Name = "D10"
         Me.D10.Size = New System.Drawing.Size(50, 50)
+        Me.D10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D10.TabIndex = 163
         Me.D10.TabStop = False
         '
         'D9
         '
+        Me.D9.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_9
         Me.D9.Location = New System.Drawing.Point(200, 450)
         Me.D9.Name = "D9"
         Me.D9.Size = New System.Drawing.Size(50, 50)
+        Me.D9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D9.TabIndex = 162
         Me.D9.TabStop = False
         '
         'D8
         '
+        Me.D8.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_8
         Me.D8.Location = New System.Drawing.Point(200, 400)
         Me.D8.Name = "D8"
         Me.D8.Size = New System.Drawing.Size(50, 50)
+        Me.D8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D8.TabIndex = 161
         Me.D8.TabStop = False
         '
         'D7
         '
+        Me.D7.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_7
         Me.D7.Location = New System.Drawing.Point(200, 350)
         Me.D7.Name = "D7"
         Me.D7.Size = New System.Drawing.Size(50, 50)
+        Me.D7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D7.TabIndex = 160
         Me.D7.TabStop = False
         '
         'D6
         '
+        Me.D6.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_6
         Me.D6.Location = New System.Drawing.Point(200, 300)
         Me.D6.Name = "D6"
         Me.D6.Size = New System.Drawing.Size(50, 50)
+        Me.D6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D6.TabIndex = 159
         Me.D6.TabStop = False
         '
         'D5
         '
+        Me.D5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_5
         Me.D5.Location = New System.Drawing.Point(200, 250)
         Me.D5.Name = "D5"
         Me.D5.Size = New System.Drawing.Size(50, 50)
+        Me.D5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D5.TabIndex = 158
         Me.D5.TabStop = False
         '
         'D4
         '
+        Me.D4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_4
         Me.D4.Location = New System.Drawing.Point(200, 200)
         Me.D4.Name = "D4"
         Me.D4.Size = New System.Drawing.Size(50, 50)
+        Me.D4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D4.TabIndex = 157
         Me.D4.TabStop = False
         '
         'D3
         '
+        Me.D3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_3
         Me.D3.Location = New System.Drawing.Point(200, 150)
         Me.D3.Name = "D3"
         Me.D3.Size = New System.Drawing.Size(50, 50)
+        Me.D3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D3.TabIndex = 156
         Me.D3.TabStop = False
         '
         'D2
         '
+        Me.D2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.D_2
         Me.D2.Location = New System.Drawing.Point(200, 100)
         Me.D2.Name = "D2"
         Me.D2.Size = New System.Drawing.Size(50, 50)
+        Me.D2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D2.TabIndex = 155
         Me.D2.TabStop = False
         '
@@ -1218,70 +1256,87 @@ Partial Class Map
         Me.D1.Location = New System.Drawing.Point(200, 50)
         Me.D1.Name = "D1"
         Me.D1.Size = New System.Drawing.Size(50, 50)
+        Me.D1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.D1.TabIndex = 154
         Me.D1.TabStop = False
         '
         'C10
         '
+        Me.C10.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_10
         Me.C10.Location = New System.Drawing.Point(150, 500)
         Me.C10.Name = "C10"
         Me.C10.Size = New System.Drawing.Size(50, 50)
+        Me.C10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C10.TabIndex = 153
         Me.C10.TabStop = False
         '
         'C9
         '
+        Me.C9.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_9
         Me.C9.Location = New System.Drawing.Point(150, 450)
         Me.C9.Name = "C9"
         Me.C9.Size = New System.Drawing.Size(50, 50)
+        Me.C9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C9.TabIndex = 152
         Me.C9.TabStop = False
         '
         'C8
         '
+        Me.C8.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_8
         Me.C8.Location = New System.Drawing.Point(150, 400)
         Me.C8.Name = "C8"
         Me.C8.Size = New System.Drawing.Size(50, 50)
+        Me.C8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C8.TabIndex = 151
         Me.C8.TabStop = False
         '
         'C7
         '
+        Me.C7.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_7
         Me.C7.Location = New System.Drawing.Point(150, 350)
         Me.C7.Name = "C7"
         Me.C7.Size = New System.Drawing.Size(50, 50)
+        Me.C7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C7.TabIndex = 150
         Me.C7.TabStop = False
         '
         'C6
         '
+        Me.C6.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_6
         Me.C6.Location = New System.Drawing.Point(150, 300)
         Me.C6.Name = "C6"
         Me.C6.Size = New System.Drawing.Size(50, 50)
+        Me.C6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C6.TabIndex = 149
         Me.C6.TabStop = False
         '
         'C5
         '
+        Me.C5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_5
         Me.C5.Location = New System.Drawing.Point(150, 250)
         Me.C5.Name = "C5"
         Me.C5.Size = New System.Drawing.Size(50, 50)
+        Me.C5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C5.TabIndex = 148
         Me.C5.TabStop = False
         '
         'C4
         '
+        Me.C4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_4
         Me.C4.Location = New System.Drawing.Point(150, 200)
         Me.C4.Name = "C4"
         Me.C4.Size = New System.Drawing.Size(50, 50)
+        Me.C4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C4.TabIndex = 147
         Me.C4.TabStop = False
         '
         'C3
         '
+        Me.C3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_3
         Me.C3.Location = New System.Drawing.Point(150, 150)
         Me.C3.Name = "C3"
         Me.C3.Size = New System.Drawing.Size(50, 50)
+        Me.C3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.C3.TabIndex = 146
         Me.C3.TabStop = False
         '
@@ -1307,65 +1362,81 @@ Partial Class Map
         '
         'B10
         '
+        Me.B10.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_10
         Me.B10.Location = New System.Drawing.Point(100, 500)
         Me.B10.Name = "B10"
         Me.B10.Size = New System.Drawing.Size(50, 50)
+        Me.B10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B10.TabIndex = 143
         Me.B10.TabStop = False
         '
         'B9
         '
+        Me.B9.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_9
         Me.B9.Location = New System.Drawing.Point(100, 450)
         Me.B9.Name = "B9"
         Me.B9.Size = New System.Drawing.Size(50, 50)
+        Me.B9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B9.TabIndex = 142
         Me.B9.TabStop = False
         '
         'B8
         '
+        Me.B8.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_8
         Me.B8.Location = New System.Drawing.Point(100, 400)
         Me.B8.Name = "B8"
         Me.B8.Size = New System.Drawing.Size(50, 50)
+        Me.B8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B8.TabIndex = 141
         Me.B8.TabStop = False
         '
         'B7
         '
+        Me.B7.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_7
         Me.B7.Location = New System.Drawing.Point(100, 350)
         Me.B7.Name = "B7"
         Me.B7.Size = New System.Drawing.Size(50, 50)
+        Me.B7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B7.TabIndex = 140
         Me.B7.TabStop = False
         '
         'B6
         '
+        Me.B6.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_6
         Me.B6.Location = New System.Drawing.Point(100, 300)
         Me.B6.Name = "B6"
         Me.B6.Size = New System.Drawing.Size(50, 50)
+        Me.B6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B6.TabIndex = 139
         Me.B6.TabStop = False
         '
         'B5
         '
+        Me.B5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_5
         Me.B5.Location = New System.Drawing.Point(100, 250)
         Me.B5.Name = "B5"
         Me.B5.Size = New System.Drawing.Size(50, 50)
+        Me.B5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B5.TabIndex = 138
         Me.B5.TabStop = False
         '
         'B4
         '
+        Me.B4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_4
         Me.B4.Location = New System.Drawing.Point(100, 200)
         Me.B4.Name = "B4"
         Me.B4.Size = New System.Drawing.Size(50, 50)
+        Me.B4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B4.TabIndex = 137
         Me.B4.TabStop = False
         '
         'B3
         '
+        Me.B3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_3
         Me.B3.Location = New System.Drawing.Point(100, 150)
         Me.B3.Name = "B3"
         Me.B3.Size = New System.Drawing.Size(50, 50)
+        Me.B3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.B3.TabIndex = 136
         Me.B3.TabStop = False
         '
@@ -1391,57 +1462,71 @@ Partial Class Map
         '
         'A10
         '
+        Me.A10.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_10
         Me.A10.Location = New System.Drawing.Point(50, 500)
         Me.A10.Name = "A10"
         Me.A10.Size = New System.Drawing.Size(50, 50)
+        Me.A10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A10.TabIndex = 133
         Me.A10.TabStop = False
         '
         'A9
         '
+        Me.A9.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_9
         Me.A9.Location = New System.Drawing.Point(50, 450)
         Me.A9.Name = "A9"
         Me.A9.Size = New System.Drawing.Size(50, 50)
+        Me.A9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A9.TabIndex = 132
         Me.A9.TabStop = False
         '
         'A8
         '
+        Me.A8.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_8
         Me.A8.Location = New System.Drawing.Point(50, 400)
         Me.A8.Name = "A8"
         Me.A8.Size = New System.Drawing.Size(50, 50)
+        Me.A8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A8.TabIndex = 131
         Me.A8.TabStop = False
         '
         'A7
         '
+        Me.A7.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_7
         Me.A7.Location = New System.Drawing.Point(50, 350)
         Me.A7.Name = "A7"
         Me.A7.Size = New System.Drawing.Size(50, 50)
+        Me.A7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A7.TabIndex = 130
         Me.A7.TabStop = False
         '
         'A6
         '
+        Me.A6.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_6
         Me.A6.Location = New System.Drawing.Point(50, 300)
         Me.A6.Name = "A6"
         Me.A6.Size = New System.Drawing.Size(50, 50)
+        Me.A6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A6.TabIndex = 129
         Me.A6.TabStop = False
         '
         'A5
         '
+        Me.A5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_5
         Me.A5.Location = New System.Drawing.Point(50, 250)
         Me.A5.Name = "A5"
         Me.A5.Size = New System.Drawing.Size(50, 50)
+        Me.A5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A5.TabIndex = 128
         Me.A5.TabStop = False
         '
         'A4
         '
+        Me.A4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_4
         Me.A4.Location = New System.Drawing.Point(50, 200)
         Me.A4.Name = "A4"
         Me.A4.Size = New System.Drawing.Size(50, 50)
+        Me.A4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.A4.TabIndex = 127
         Me.A4.TabStop = False
         '
