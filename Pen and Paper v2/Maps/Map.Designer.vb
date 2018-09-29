@@ -1727,6 +1727,7 @@ Partial Class Map
         '
         'SE5
         '
+        Me.SE5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SE5.Location = New System.Drawing.Point(457, 454)
         Me.SE5.Name = "SE5"
         Me.SE5.Size = New System.Drawing.Size(100, 100)
@@ -1735,6 +1736,7 @@ Partial Class Map
         '
         'SE4
         '
+        Me.SE4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SE4.Location = New System.Drawing.Point(457, 354)
         Me.SE4.Name = "SE4"
         Me.SE4.Size = New System.Drawing.Size(100, 100)
@@ -1743,6 +1745,7 @@ Partial Class Map
         '
         'SE3
         '
+        Me.SE3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SE3.Location = New System.Drawing.Point(457, 254)
         Me.SE3.Name = "SE3"
         Me.SE3.Size = New System.Drawing.Size(100, 100)
@@ -1751,6 +1754,7 @@ Partial Class Map
         '
         'SE2
         '
+        Me.SE2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SE2.Location = New System.Drawing.Point(457, 154)
         Me.SE2.Name = "SE2"
         Me.SE2.Size = New System.Drawing.Size(100, 100)
@@ -1759,6 +1763,7 @@ Partial Class Map
         '
         'SE1
         '
+        Me.SE1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SE1.Location = New System.Drawing.Point(457, 54)
         Me.SE1.Name = "SE1"
         Me.SE1.Size = New System.Drawing.Size(100, 100)
@@ -1767,6 +1772,7 @@ Partial Class Map
         '
         'SD5
         '
+        Me.SD5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SD5.Location = New System.Drawing.Point(357, 454)
         Me.SD5.Name = "SD5"
         Me.SD5.Size = New System.Drawing.Size(100, 100)
@@ -1775,6 +1781,7 @@ Partial Class Map
         '
         'SD4
         '
+        Me.SD4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SD4.Location = New System.Drawing.Point(357, 354)
         Me.SD4.Name = "SD4"
         Me.SD4.Size = New System.Drawing.Size(100, 100)
@@ -1783,6 +1790,7 @@ Partial Class Map
         '
         'SD3
         '
+        Me.SD3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SD3.Location = New System.Drawing.Point(357, 254)
         Me.SD3.Name = "SD3"
         Me.SD3.Size = New System.Drawing.Size(100, 100)
@@ -1791,6 +1799,7 @@ Partial Class Map
         '
         'SD2
         '
+        Me.SD2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SD2.Location = New System.Drawing.Point(357, 154)
         Me.SD2.Name = "SD2"
         Me.SD2.Size = New System.Drawing.Size(100, 100)
@@ -1799,6 +1808,7 @@ Partial Class Map
         '
         'SD1
         '
+        Me.SD1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SD1.Location = New System.Drawing.Point(357, 54)
         Me.SD1.Name = "SD1"
         Me.SD1.Size = New System.Drawing.Size(100, 100)
@@ -1807,6 +1817,7 @@ Partial Class Map
         '
         'SC5
         '
+        Me.SC5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SC5.Location = New System.Drawing.Point(257, 454)
         Me.SC5.Name = "SC5"
         Me.SC5.Size = New System.Drawing.Size(100, 100)
@@ -1815,6 +1826,7 @@ Partial Class Map
         '
         'SC4
         '
+        Me.SC4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SC4.Location = New System.Drawing.Point(257, 354)
         Me.SC4.Name = "SC4"
         Me.SC4.Size = New System.Drawing.Size(100, 100)
@@ -1823,6 +1835,7 @@ Partial Class Map
         '
         'SC3
         '
+        Me.SC3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SC3.Location = New System.Drawing.Point(257, 254)
         Me.SC3.Name = "SC3"
         Me.SC3.Size = New System.Drawing.Size(100, 100)
@@ -1831,6 +1844,7 @@ Partial Class Map
         '
         'SC2
         '
+        Me.SC2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SC2.Location = New System.Drawing.Point(257, 154)
         Me.SC2.Name = "SC2"
         Me.SC2.Size = New System.Drawing.Size(100, 100)
@@ -1839,6 +1853,7 @@ Partial Class Map
         '
         'SC1
         '
+        Me.SC1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SC1.Location = New System.Drawing.Point(257, 54)
         Me.SC1.Name = "SC1"
         Me.SC1.Size = New System.Drawing.Size(100, 100)
@@ -1847,6 +1862,7 @@ Partial Class Map
         '
         'SB5
         '
+        Me.SB5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SB5.Location = New System.Drawing.Point(157, 454)
         Me.SB5.Name = "SB5"
         Me.SB5.Size = New System.Drawing.Size(100, 100)
@@ -1855,6 +1871,7 @@ Partial Class Map
         '
         'SB4
         '
+        Me.SB4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SB4.Location = New System.Drawing.Point(157, 354)
         Me.SB4.Name = "SB4"
         Me.SB4.Size = New System.Drawing.Size(100, 100)
@@ -1863,6 +1880,7 @@ Partial Class Map
         '
         'SB3
         '
+        Me.SB3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SB3.Location = New System.Drawing.Point(157, 254)
         Me.SB3.Name = "SB3"
         Me.SB3.Size = New System.Drawing.Size(100, 100)
@@ -1871,6 +1889,7 @@ Partial Class Map
         '
         'SB2
         '
+        Me.SB2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SB2.Location = New System.Drawing.Point(157, 154)
         Me.SB2.Name = "SB2"
         Me.SB2.Size = New System.Drawing.Size(100, 100)
@@ -1879,6 +1898,7 @@ Partial Class Map
         '
         'SB1
         '
+        Me.SB1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SB1.Location = New System.Drawing.Point(157, 54)
         Me.SB1.Name = "SB1"
         Me.SB1.Size = New System.Drawing.Size(100, 100)
@@ -1887,6 +1907,7 @@ Partial Class Map
         '
         'SA5
         '
+        Me.SA5.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SA5.Location = New System.Drawing.Point(57, 454)
         Me.SA5.Name = "SA5"
         Me.SA5.Size = New System.Drawing.Size(100, 100)
@@ -1895,6 +1916,7 @@ Partial Class Map
         '
         'SA4
         '
+        Me.SA4.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SA4.Location = New System.Drawing.Point(57, 354)
         Me.SA4.Name = "SA4"
         Me.SA4.Size = New System.Drawing.Size(100, 100)
@@ -1903,6 +1925,7 @@ Partial Class Map
         '
         'SA3
         '
+        Me.SA3.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SA3.Location = New System.Drawing.Point(57, 254)
         Me.SA3.Name = "SA3"
         Me.SA3.Size = New System.Drawing.Size(100, 100)
@@ -1911,6 +1934,7 @@ Partial Class Map
         '
         'SA2
         '
+        Me.SA2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SA2.Location = New System.Drawing.Point(57, 154)
         Me.SA2.Name = "SA2"
         Me.SA2.Size = New System.Drawing.Size(100, 100)
@@ -1919,6 +1943,7 @@ Partial Class Map
         '
         'SA1
         '
+        Me.SA1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.Weiß
         Me.SA1.Location = New System.Drawing.Point(57, 54)
         Me.SA1.Name = "SA1"
         Me.SA1.Size = New System.Drawing.Size(100, 100)
@@ -1944,6 +1969,7 @@ Partial Class Map
         '
         'Zurück2
         '
+        Me.Zurück2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
         Me.Zurück2.Location = New System.Drawing.Point(13, 117)
         Me.Zurück2.Name = "Zurück2"
         Me.Zurück2.Size = New System.Drawing.Size(53, 55)
@@ -1953,6 +1979,7 @@ Partial Class Map
         '
         'Zurück
         '
+        Me.Zurück.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
         Me.Zurück.Location = New System.Drawing.Point(13, 54)
         Me.Zurück.Name = "Zurück"
         Me.Zurück.Size = New System.Drawing.Size(53, 55)
