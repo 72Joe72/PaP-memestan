@@ -13401,123 +13401,5703 @@ Public Class Map
     End Sub
 
     Private Sub H1_Click(sender As Object, e As EventArgs) Handles H1.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-1"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_1
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H1_A1")
+        If GetText("H1_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H1_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H1_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H1_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H1_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H1_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H1_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H1_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H1_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H1_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H1_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H1_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H1_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H1_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H1_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H1_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H1_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H1_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H1_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H1_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H1_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H1_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H1_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H1_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H1_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H2_Click(sender As Object, e As EventArgs) Handles H2.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-2"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_2
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H2_A1")
+        If GetText("H2_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H2_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H2_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H2_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H2_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H2_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H2_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H2_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H2_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H2_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H2_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H2_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H2_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H2_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H2_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H2_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H2_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H2_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H2_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H2_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H2_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H2_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H2_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H2_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H2_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H3_Click(sender As Object, e As EventArgs) Handles H3.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-3"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_3
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H3_A1")
+        If GetText("H3_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H3_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H3_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H3_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H3_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H3_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H3_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H3_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H3_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H3_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H3_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H3_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H3_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H3_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H3_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H3_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H3_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H3_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H3_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H3_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H3_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H3_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H3_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H3_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H3_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H4_Click(sender As Object, e As EventArgs) Handles H4.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-4"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_4
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H4_A1")
+        If GetText("H4_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H4_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H4_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H4_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H4_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H4_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H4_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H4_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H4_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H4_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H4_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H4_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H4_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H4_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H4_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H4_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H4_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H4_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H4_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H4_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H4_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H4_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H4_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H4_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H4_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H5_Click(sender As Object, e As EventArgs) Handles H5.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-5"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_5
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H5_A1")
+        If GetText("H5_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H5_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H5_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H5_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H5_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H5_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H5_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H5_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H5_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H5_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H5_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H5_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H5_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H5_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H5_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H5_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H5_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H5_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H5_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H5_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H5_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H5_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H5_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H5_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H5_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H6_Click(sender As Object, e As EventArgs) Handles H6.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-6"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_6
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H6_A1")
+        If GetText("H6_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H6_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H6_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H6_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H6_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H6_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H6_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H6_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H6_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H6_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H6_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H6_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H6_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H6_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H6_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H6_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H6_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H6_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H6_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H6_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H6_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H6_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H6_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H6_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H6_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H7_Click(sender As Object, e As EventArgs) Handles H7.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-7"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_7
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H7_A1")
+        If GetText("H7_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H7_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H7_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H7_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H7_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H7_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H7_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H7_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H7_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H7_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H7_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H7_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H7_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H7_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H7_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H7_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H7_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H7_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H7_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H7_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H7_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H7_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H7_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H7_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H7_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H8_Click(sender As Object, e As EventArgs) Handles H8.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-8"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_8
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H8_A1")
+        If GetText("H8_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H8_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H8_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H8_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H8_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H8_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H8_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H8_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H8_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H8_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H8_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H8_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H8_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H8_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H8_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H8_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H8_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H8_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H8_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H8_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H8_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H8_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H8_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H8_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H8_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H9_Click(sender As Object, e As EventArgs) Handles H9.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-9"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_9
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H9_A1")
+        If GetText("H9_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H9_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H9_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H9_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H9_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H9_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H9_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H9_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H9_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H9_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H9_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H9_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H9_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H9_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H9_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H9_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H9_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H9_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H9_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H9_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H9_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H9_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H9_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H9_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H9_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub H10_Click(sender As Object, e As EventArgs) Handles H10.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "H-10"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.H_10
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("H10_A1")
+        If GetText("H10_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("H10_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H10_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("H10_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("H10_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("H10_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("H10_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H10_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("H10_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("H10_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("H10_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("H10_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("H10_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("H10_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("H10_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("H10_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("H10_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("H10_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("H10_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("H10_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("H10_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("H10_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("H10_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("H10_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("H10_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I1_Click(sender As Object, e As EventArgs) Handles I1.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-1"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_1
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I1_A1")
+        If GetText("I1_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I1_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I1_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I1_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I1_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I1_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I1_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I1_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I1_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I1_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I1_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I1_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I1_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I1_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I1_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I1_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I1_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I1_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I1_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I1_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I1_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I1_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I1_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I1_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I1_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I2_Click(sender As Object, e As EventArgs) Handles I2.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-2"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_2
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I2_A1")
+        If GetText("I2_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I2_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I2_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I2_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I2_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I2_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I2_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I2_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I2_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I2_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I2_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I2_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I2_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I2_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I2_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I2_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I2_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I2_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I2_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I2_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I2_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I2_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I2_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I2_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I2_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I3_Click(sender As Object, e As EventArgs) Handles I3.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-3"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_3
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I3_A1")
+        If GetText("I3_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I3_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I3_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I3_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I3_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I3_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I3_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I3_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I3_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I3_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I3_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I3_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I3_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I3_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I3_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I3_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I3_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I3_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I3_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I3_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I3_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I3_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I3_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I3_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I3_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I4_Click(sender As Object, e As EventArgs) Handles I4.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-4"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_4
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I4_A1")
+        If GetText("I4_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I4_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I4_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I4_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I4_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I4_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I4_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I4_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I4_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I4_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I4_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I4_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I4_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I4_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I4_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I4_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I4_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I4_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I4_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I4_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I4_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I4_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I4_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I4_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I4_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I5_Click(sender As Object, e As EventArgs) Handles I5.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-5"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_5
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I5_A1")
+        If GetText("I5_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I5_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I5_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I5_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I5_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I5_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I5_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I5_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I5_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I5_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I5_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I5_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I5_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I5_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I5_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I5_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I5_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I5_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I5_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I5_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I5_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I5_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I5_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I5_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I5_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I6_Click(sender As Object, e As EventArgs) Handles I6.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-6"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_6
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I6_A1")
+        If GetText("I6_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I6_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I6_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I6_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I6_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I6_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I6_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I6_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I6_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I6_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I6_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I6_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I6_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I6_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I6_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I6_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I6_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I6_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I6_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I6_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I6_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I6_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I6_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I6_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I6_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I7_Click(sender As Object, e As EventArgs) Handles I7.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-7"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_7
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I7_A1")
+        If GetText("I7_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I7_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I7_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I7_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I7_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I7_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I7_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I7_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I7_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I7_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I7_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I7_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I7_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I7_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I7_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I7_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I7_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I7_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I7_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I7_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I7_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I7_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I7_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I7_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I7_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I8_Click(sender As Object, e As EventArgs) Handles I8.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-8"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_8
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I8_A1")
+        If GetText("I8_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I8_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I8_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I8_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I8_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I8_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I8_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I8_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I8_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I8_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I8_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I8_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I8_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I8_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I8_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I8_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I8_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I8_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I8_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I8_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I8_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I8_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I8_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I8_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I8_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I9_Click(sender As Object, e As EventArgs) Handles I9.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-9"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_9
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I9_A1")
+        If GetText("I9_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I9_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I9_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I9_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I9_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I9_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I9_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I9_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I9_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I9_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I9_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I9_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I9_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I9_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I9_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I9_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I9_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I9_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I9_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I9_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I9_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I9_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I9_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I9_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I9_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub I10_Click(sender As Object, e As EventArgs) Handles I10.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "I-10"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.I_10
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("I10_A1")
+        If GetText("I10_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("I10_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I10_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("I10_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("I10_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("I10_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("I10_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I10_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("I10_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("I10_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("I10_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("I10_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("I10_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("I10_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("I10_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("I10_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("I10_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("I10_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("I10_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("I10_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("I10_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("I10_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("I10_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("I10_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("I10_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J1_Click(sender As Object, e As EventArgs) Handles J1.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-1"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_1
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J1_A1")
+        If GetText("J1_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J1_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J1_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J1_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J1_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J1_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J1_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J1_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J1_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J1_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J1_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J1_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J1_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J1_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J1_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J1_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J1_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J1_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J1_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J1_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J1_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J1_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J1_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J1_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J1_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J2_Click(sender As Object, e As EventArgs) Handles J2.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-2"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_2
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J2_A1")
+        If GetText("J2_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J2_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J2_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J2_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J2_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J2_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J2_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J2_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J2_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J2_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J2_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J2_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J2_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J2_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J2_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J2_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J2_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J2_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J2_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J2_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J2_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J2_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J2_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J2_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J2_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J3_Click(sender As Object, e As EventArgs) Handles J3.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-3"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_3
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J3_A1")
+        If GetText("J3_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J3_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J3_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J3_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J3_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J3_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J3_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J3_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J3_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J3_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J3_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J3_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J3_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J3_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J3_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J3_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J3_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J3_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J3_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J3_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J3_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J3_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J3_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J3_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J3_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J4_Click(sender As Object, e As EventArgs) Handles J4.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-4"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_4
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J4_A1")
+        If GetText("J4_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J4_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J4_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J4_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J4_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J4_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J4_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J4_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J4_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J4_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J4_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J4_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J4_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J4_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J4_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J4_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J4_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J4_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J4_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J4_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J4_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J4_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J4_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J4_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J4_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J5_Click(sender As Object, e As EventArgs) Handles J5.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-5"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_5
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J5_A1")
+        If GetText("J5_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J5_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J5_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J5_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J5_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J5_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J5_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J5_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J5_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J5_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J5_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J5_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J5_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J5_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J5_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J5_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J5_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J5_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J5_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J5_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J5_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J5_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J5_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J5_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J5_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J6_Click(sender As Object, e As EventArgs) Handles J6.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-6"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_6
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J6_A1")
+        If GetText("J6_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J6_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J6_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J6_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J6_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J6_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J6_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J6_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J6_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J6_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J6_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J6_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J6_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J6_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J6_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J6_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J6_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J6_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J6_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J6_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J6_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J6_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J6_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J6_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J6_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J7_Click(sender As Object, e As EventArgs) Handles J7.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-7"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_7
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J7_A1")
+        If GetText("J7_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J7_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J7_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J7_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J7_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J7_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J7_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J7_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J7_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J7_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J7_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J7_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J7_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J7_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J7_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J7_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J7_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J7_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J7_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J7_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J7_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J7_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J7_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J7_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J7_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J8_Click(sender As Object, e As EventArgs) Handles J8.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-8"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_8
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J8_A1")
+        If GetText("J8_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J8_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J8_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J8_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J8_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J8_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J8_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J8_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J8_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J8_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J8_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J8_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J8_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J8_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J8_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J8_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J8_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J8_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J8_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J8_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J8_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J8_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J8_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J8_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J8_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J9_Click(sender As Object, e As EventArgs) Handles J9.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-9"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_9
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J9_A1")
+        If GetText("J9_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J9_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J9_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J9_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J9_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J9_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J9_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J9_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J9_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J9_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J9_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J9_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J9_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J9_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J9_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J9_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J9_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J9_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J9_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J9_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J9_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J9_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J9_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J9_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J9_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
     Private Sub J10_Click(sender As Object, e As EventArgs) Handles J10.Click
+        'Sichtbarkeits Änderungen
+        MainMap.Visible = False
+        SubMap.Visible = True
+        Zurück.Visible = True
+        Zurück2.Visible = False
+        'Mapteil anzeige
+        SInfo.Text = "J-10"
+        'Map "Hintergrund" import
+        Dim SMXx As Bitmap = My.Resources.J_10
+        SMX.Image = SMXx
+        'Nebel ein oder aus Blenden
+        Dim mapvis As String
 
+        mapvis = GetText("J10_A1")
+        If GetText("J10_A1") = "True" Then
+            SA1.Visible = False
+        Else
+            SA1.Visible = True
+        End If
+
+        mapvis = GetText("J10_A2")
+        If mapvis = "True" Then
+            SA2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J10_A3")
+        If mapvis = "True" Then
+            SA3.Visible = False
+        Else
+            SA3.Visible = True
+        End If
+
+        mapvis = GetText("J10_A4")
+        If mapvis = "True" Then
+            SA4.Visible = False
+        Else
+            SA4.Visible = True
+        End If
+
+        mapvis = GetText("J10_A5")
+        If mapvis = "True" Then
+            SA5.Visible = False
+        Else
+            SA5.Visible = True
+        End If
+
+        mapvis = GetText("J10_B1")
+        If mapvis = "True" Then
+            SB1.Visible = False
+        Else
+            SB1.Visible = True
+        End If
+
+        mapvis = GetText("J10_B2")
+        If mapvis = "True" Then
+            SB2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J10_B3")
+        If mapvis = "True" Then
+            SB3.Visible = False
+        Else
+            SB3.Visible = True
+        End If
+
+        mapvis = GetText("J10_B4")
+        If mapvis = "True" Then
+            SB4.Visible = False
+        Else
+            SB4.Visible = True
+        End If
+
+        mapvis = GetText("J10_B5")
+        If mapvis = "True" Then
+            SB5.Visible = False
+        Else
+            SB5.Visible = True
+        End If
+
+        mapvis = GetText("J10_C1")
+        If mapvis = "True" Then
+            SC1.Visible = False
+        Else
+            SC1.Visible = True
+        End If
+
+        mapvis = GetText("J10_C2")
+        If mapvis = "True" Then
+            SC2.Visible = False
+        Else
+            SC2.Visible = True
+        End If
+
+        mapvis = GetText("J10_C3")
+        If mapvis = "True" Then
+            SC3.Visible = False
+        Else
+            SC3.Visible = True
+        End If
+
+        mapvis = GetText("J10_C4")
+        If mapvis = "True" Then
+            SC4.Visible = False
+        Else
+            SC4.Visible = True
+        End If
+
+        mapvis = GetText("J10_C5")
+        If mapvis = "True" Then
+            SC5.Visible = False
+        Else
+            SC5.Visible = True
+        End If
+
+        mapvis = GetText("J10_D1")
+        If mapvis = "True" Then
+            SD1.Visible = False
+        Else
+            SD1.Visible = True
+        End If
+
+        mapvis = GetText("J10_D2")
+        If mapvis = "True" Then
+            SD2.Visible = False
+        Else
+            SD2.Visible = True
+        End If
+
+        mapvis = GetText("J10_D3")
+        If mapvis = "True" Then
+            SD3.Visible = False
+        Else
+            SD3.Visible = True
+        End If
+
+        mapvis = GetText("J10_D4")
+        If mapvis = "True" Then
+            SD4.Visible = False
+        Else
+            SD4.Visible = True
+        End If
+
+        mapvis = GetText("J10_D5")
+        If mapvis = "True" Then
+            SD5.Visible = False
+        Else
+            SD5.Visible = True
+        End If
+
+        mapvis = GetText("J10_E1")
+        If mapvis = "True" Then
+            SE1.Visible = False
+        Else
+            SE1.Visible = True
+        End If
+
+        mapvis = GetText("J10_E2")
+        If mapvis = "True" Then
+            SE2.Visible = False
+        Else
+            SA2.Visible = True
+        End If
+
+        mapvis = GetText("J10_E3")
+        If mapvis = "True" Then
+            SE3.Visible = False
+        Else
+            SE3.Visible = True
+        End If
+
+        mapvis = GetText("J10_E4")
+        If mapvis = "True" Then
+            SE4.Visible = False
+        Else
+            SE4.Visible = True
+        End If
+
+        mapvis = GetText("J10_E5")
+        If mapvis = "True" Then
+            SE5.Visible = False
+        Else
+            SE5.Visible = True
+        End If
     End Sub
 
 
