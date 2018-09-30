@@ -79,6 +79,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\Inventar.Designer.vb">
+      <DependentUpon>Inventar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Inventar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Maps\Map.Designer.vb">
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
@@ -104,6 +110,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Main\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Inventar.resx">
+      <DependentUpon>Inventar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>

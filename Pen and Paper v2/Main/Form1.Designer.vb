@@ -27,10 +27,10 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(39, 32)
+        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(706, 32)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(720, 372)
+        Me.Button1.Size = New System.Drawing.Size(53, 37)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Map"
         Me.Button1.UseVisualStyleBackColor = True
