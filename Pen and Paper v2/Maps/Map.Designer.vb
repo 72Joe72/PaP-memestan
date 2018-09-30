@@ -1342,7 +1342,7 @@ Partial Class Map
         '
         'C2
         '
-        Me.C2.Image = CType(resources.GetObject("C2.Image"), System.Drawing.Image)
+        Me.C2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_2
         Me.C2.Location = New System.Drawing.Point(150, 100)
         Me.C2.Name = "C2"
         Me.C2.Size = New System.Drawing.Size(50, 50)
@@ -1352,7 +1352,7 @@ Partial Class Map
         '
         'C1
         '
-        Me.C1.Image = CType(resources.GetObject("C1.Image"), System.Drawing.Image)
+        Me.C1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.C_1
         Me.C1.Location = New System.Drawing.Point(150, 50)
         Me.C1.Name = "C1"
         Me.C1.Size = New System.Drawing.Size(50, 50)
@@ -1442,7 +1442,7 @@ Partial Class Map
         '
         'B2
         '
-        Me.B2.Image = CType(resources.GetObject("B2.Image"), System.Drawing.Image)
+        Me.B2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_2
         Me.B2.Location = New System.Drawing.Point(100, 100)
         Me.B2.Name = "B2"
         Me.B2.Size = New System.Drawing.Size(50, 50)
@@ -1452,7 +1452,7 @@ Partial Class Map
         '
         'B1
         '
-        Me.B1.Image = CType(resources.GetObject("B1.Image"), System.Drawing.Image)
+        Me.B1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.B_1
         Me.B1.Location = New System.Drawing.Point(100, 50)
         Me.B1.Name = "B1"
         Me.B1.Size = New System.Drawing.Size(50, 50)
@@ -1542,7 +1542,7 @@ Partial Class Map
         '
         'A2
         '
-        Me.A2.Image = CType(resources.GetObject("A2.Image"), System.Drawing.Image)
+        Me.A2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_2
         Me.A2.Location = New System.Drawing.Point(50, 100)
         Me.A2.Name = "A2"
         Me.A2.Size = New System.Drawing.Size(50, 50)
@@ -1552,7 +1552,7 @@ Partial Class Map
         '
         'A1
         '
-        Me.A1.Image = CType(resources.GetObject("A1.Image"), System.Drawing.Image)
+        Me.A1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.A_1
         Me.A1.Location = New System.Drawing.Point(50, 50)
         Me.A1.Name = "A1"
         Me.A1.Size = New System.Drawing.Size(50, 50)
