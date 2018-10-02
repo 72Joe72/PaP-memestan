@@ -79,6 +79,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\Charaktererstellung.Designer.vb">
+      <DependentUpon>Charaktererstellung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Charaktererstellung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Hauptmenü.Designer.vb">
+      <DependentUpon>Hauptmenü.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Hauptmenü.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main\Inventar.Designer.vb">
       <DependentUpon>Inventar.vb</DependentUpon>
     </Compile>
@@ -110,6 +122,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Main\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Charaktererstellung.resx">
+      <DependentUpon>Charaktererstellung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Hauptmenü.resx">
+      <DependentUpon>Hauptmenü.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Inventar.resx">
       <DependentUpon>Inventar.vb</DependentUpon>

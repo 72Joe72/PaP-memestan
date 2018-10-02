@@ -1962,9 +1962,9 @@ Partial Class Map
         '
         Me.Panel1.Controls.Add(Me.Zurück2)
         Me.Panel1.Controls.Add(Me.Zurück)
-        Me.Panel1.Location = New System.Drawing.Point(1300, 8)
+        Me.Panel1.Location = New System.Drawing.Point(1226, 8)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(102, 556)
+        Me.Panel1.Size = New System.Drawing.Size(102, 557)
         Me.Panel1.TabIndex = 249
         '
         'Zurück2
