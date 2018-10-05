@@ -19100,5 +19100,7 @@ Public Class Map
         End If
     End Sub
 
+    Private Sub SB1_Click(sender As Object, e As EventArgs) Handles SB1.Click
 
+    End Sub
 End Class
