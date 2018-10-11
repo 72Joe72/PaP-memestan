@@ -72,12 +72,15 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\Form1.vb">
+    <Compile Include="Main\TCP Controll.vb" />
+    <Compile Include="Main\Tcp server.vb">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Main\Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+      <DependentUpon>Tcp server.vb</DependentUpon>
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Main\Charaktererstellung.Designer.vb">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
@@ -121,7 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Main\Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+      <DependentUpon>Tcp server.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Charaktererstellung.resx">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
@@ -462,6 +466,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\J_10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\lupe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

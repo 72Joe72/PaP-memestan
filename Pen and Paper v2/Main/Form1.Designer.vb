@@ -22,30 +22,29 @@ Partial Class Form1
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'TextBox1
         '
-        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(706, 32)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(53, 37)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Map"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.TextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(307, 426)
+        Me.TextBox1.TabIndex = 0
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(331, 450)
+        Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBox1 As TextBox
 End Class

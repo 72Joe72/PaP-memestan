@@ -185,6 +185,7 @@ Partial Class Map
         Me.SA1 = New System.Windows.Forms.PictureBox()
         Me.SMX = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Zurück2 = New System.Windows.Forms.PictureBox()
         Me.Zurück = New System.Windows.Forms.PictureBox()
         Me.MainMap.SuspendLayout()
@@ -316,6 +317,7 @@ Partial Class Map
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -1600,7 +1602,7 @@ Partial Class Map
         Me.SubMap.Controls.Add(Me.SA2)
         Me.SubMap.Controls.Add(Me.SA1)
         Me.SubMap.Controls.Add(Me.SMX)
-        Me.SubMap.Location = New System.Drawing.Point(612, 8)
+        Me.SubMap.Location = New System.Drawing.Point(5, 12)
         Me.SubMap.Name = "SubMap"
         Me.SubMap.Size = New System.Drawing.Size(560, 557)
         Me.SubMap.TabIndex = 247
@@ -1955,22 +1957,34 @@ Partial Class Map
         Me.SMX.Location = New System.Drawing.Point(57, 54)
         Me.SMX.Name = "SMX"
         Me.SMX.Size = New System.Drawing.Size(499, 500)
+        Me.SMX.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.SMX.TabIndex = 248
         Me.SMX.TabStop = False
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Zurück2)
         Me.Panel1.Controls.Add(Me.Zurück)
-        Me.Panel1.Location = New System.Drawing.Point(1226, 8)
+        Me.Panel1.Location = New System.Drawing.Point(571, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(102, 557)
+        Me.Panel1.Size = New System.Drawing.Size(80, 557)
         Me.Panel1.TabIndex = 249
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.lupe
+        Me.PictureBox1.Location = New System.Drawing.Point(13, 481)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(53, 55)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 250
+        Me.PictureBox1.TabStop = False
         '
         'Zurück2
         '
         Me.Zurück2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
-        Me.Zurück2.Location = New System.Drawing.Point(13, 117)
+        Me.Zurück2.Location = New System.Drawing.Point(13, 54)
         Me.Zurück2.Name = "Zurück2"
         Me.Zurück2.Size = New System.Drawing.Size(53, 55)
         Me.Zurück2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1991,10 +2005,10 @@ Partial Class Map
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1408, 594)
+        Me.ClientSize = New System.Drawing.Size(655, 570)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.SubMap)
         Me.Controls.Add(Me.MainMap)
+        Me.Controls.Add(Me.SubMap)
         Me.Name = "Map"
         Me.Text = "Main Map"
         Me.MainMap.ResumeLayout(False)
@@ -2128,6 +2142,7 @@ Partial Class Map
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -2297,4 +2312,5 @@ Partial Class Map
     Friend WithEvents Zurück As PictureBox
     Friend WithEvents Zurück2 As PictureBox
     Friend WithEvents SMX As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

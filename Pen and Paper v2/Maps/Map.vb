@@ -1,28 +1,29 @@
 ﻿Imports System.IO
 
 Public Class Map
-
-    'ReSet Function
-
     Public Function GetText(ByVal Identifier As String) As String
-
+        'ReSet Function
         Try
-            Dim S As New StringReader(My.Resources.Player) : Dim Result As String = ""
+            Dim line As New IO.StreamReader("C:\Users\Janis\Desktop\Player.txt")
+            Dim Result As String = ""
 
-            'Do While (S.Peek <> -1)
-            Dim Line As String = S.ReadLine
-            If Line.ToLower.StartsWith(Identifier.ToLower) Then
-                Result = Line.Substring(Identifier.Length + 3)
-                S.Close()
-            End If
-            'Loop
+            While line.Peek > -1
+                Dim out As String = line.ReadLine()
+
+                If out.StartsWith(Identifier) Then
+                    Result = out.Substring(Identifier.Length + 1)
+                End If
+            End While
             Return Result
-        Catch ex As Exception
 
+        Catch ex As Exception
         End Try
-#Disable Warning BC42105 ' Die Funktion gibt nicht für alle Codepfade einen Wert zurück.
+
     End Function
-#Enable Warning BC42105 ' Die Funktion gibt nicht für alle Codepfade einen Wert zurück.
+
+
+
+
 
     Private Sub Zurück_Click(sender As Object, e As EventArgs) Handles Zurück.Click
         MainMap.Visible = True
@@ -19102,5 +19103,9 @@ Public Class Map
 
     Private Sub SB1_Click(sender As Object, e As EventArgs) Handles SB1.Click
 
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Process.Start("C:\WINDOWS\system32\magnify.exe")
     End Sub
 End Class
