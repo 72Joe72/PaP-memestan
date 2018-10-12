@@ -188,6 +188,7 @@ Partial Class Map
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Zurück2 = New System.Windows.Forms.PictureBox()
         Me.Zurück = New System.Windows.Forms.PictureBox()
+        Me.EventLog1 = New System.Diagnostics.EventLog()
         Me.MainMap.SuspendLayout()
         CType(Me.J10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.J9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -320,6 +321,7 @@ Partial Class Map
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MainMap
@@ -2001,6 +2003,10 @@ Partial Class Map
         Me.Zurück.TabIndex = 0
         Me.Zurück.TabStop = False
         '
+        'EventLog1
+        '
+        Me.EventLog1.SynchronizingObject = Me
+        '
         'Map
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2145,6 +2151,7 @@ Partial Class Map
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2313,4 +2320,5 @@ Partial Class Map
     Friend WithEvents Zurück2 As PictureBox
     Friend WithEvents SMX As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents EventLog1 As EventLog
 End Class

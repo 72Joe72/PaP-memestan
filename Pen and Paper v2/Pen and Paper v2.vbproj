@@ -72,15 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\TCP Controll.vb" />
-    <Compile Include="Main\Tcp server.vb">
-      <SubType>Form</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Compile Include="Main\Server.Designer.vb">
+      <DependentUpon>Server.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Form1.Designer.vb">
-      <DependentUpon>Tcp server.vb</DependentUpon>
+    <Compile Include="Main\Server.vb">
       <SubType>Form</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Main\Charaktererstellung.Designer.vb">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
@@ -100,6 +96,7 @@
     <Compile Include="Main\Inventar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\TCPControl.vb" />
     <Compile Include="Maps\Map.Designer.vb">
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
@@ -123,10 +120,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Main\Form1.resx">
-      <DependentUpon>Tcp server.vb</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main\Charaktererstellung.resx">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Inventar.resx">
       <DependentUpon>Inventar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Server.resx">
+      <DependentUpon>Server.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>

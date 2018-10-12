@@ -34,6 +34,7 @@ Partial Class Hauptmenü
         Me.Label4 = New System.Windows.Forms.Label()
         Me.neu_chara = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Haupt.SuspendLayout()
         Me.Chara1.SuspendLayout()
         Me.SuspendLayout()
@@ -155,18 +156,28 @@ Partial Class Hauptmenü
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(677, 78)
+        Me.Button1.Location = New System.Drawing.Point(603, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(243, 167)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Neu"
+        Me.Button1.Text = "Map"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(626, 226)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(167, 138)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Server"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Hauptmenü
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1091, 391)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Chara1)
         Me.Controls.Add(Me.Haupt)
@@ -192,4 +203,5 @@ Partial Class Hauptmenü
     Friend WithEvents Label4 As Label
     Friend WithEvents neu_chara As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
