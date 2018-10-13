@@ -72,12 +72,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\Server.Designer.vb">
-      <DependentUpon>Server.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Main\Server.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Main\Charaktererstellung.Designer.vb">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
     </Compile>
@@ -96,7 +90,6 @@
     <Compile Include="Main\Inventar.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\TCPControl.vb" />
     <Compile Include="Maps\Map.Designer.vb">
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
@@ -128,9 +121,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Inventar.resx">
       <DependentUpon>Inventar.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\Server.resx">
-      <DependentUpon>Server.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>

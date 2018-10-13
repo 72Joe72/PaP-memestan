@@ -32,11 +32,15 @@ Partial Class Hauptmenü
         Me.zurück_chara = New System.Windows.Forms.Button()
         Me.load_chara = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.neu_chara = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Neu_chara = New System.Windows.Forms.Button()
+        Me.SpielenP = New System.Windows.Forms.Panel()
+        Me.zurück_Spiel = New System.Windows.Forms.Button()
+        Me.PJoinB = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GMJoinB = New System.Windows.Forms.Button()
         Me.Haupt.SuspendLayout()
         Me.Chara1.SuspendLayout()
+        Me.SpielenP.SuspendLayout()
         Me.SuspendLayout()
         '
         'SPIELEN
@@ -106,7 +110,7 @@ Partial Class Hauptmenü
         Me.Chara1.Controls.Add(Me.zurück_chara)
         Me.Chara1.Controls.Add(Me.load_chara)
         Me.Chara1.Controls.Add(Me.Label4)
-        Me.Chara1.Controls.Add(Me.neu_chara)
+        Me.Chara1.Controls.Add(Me.Neu_chara)
         Me.Chara1.Location = New System.Drawing.Point(294, 12)
         Me.Chara1.Name = "Chara1"
         Me.Chara1.Size = New System.Drawing.Size(276, 367)
@@ -143,42 +147,74 @@ Partial Class Hauptmenü
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Charaktererstellung"
         '
-        'neu_chara
+        'Neu_chara
         '
-        Me.neu_chara.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.neu_chara.Location = New System.Drawing.Point(19, 154)
-        Me.neu_chara.Name = "neu_chara"
-        Me.neu_chara.Size = New System.Drawing.Size(243, 45)
-        Me.neu_chara.TabIndex = 0
-        Me.neu_chara.Text = "Neu"
-        Me.neu_chara.UseVisualStyleBackColor = True
+        Me.Neu_chara.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Neu_chara.Location = New System.Drawing.Point(19, 154)
+        Me.Neu_chara.Name = "Neu_chara"
+        Me.Neu_chara.Size = New System.Drawing.Size(243, 45)
+        Me.Neu_chara.TabIndex = 0
+        Me.Neu_chara.Text = "Neu"
+        Me.Neu_chara.UseVisualStyleBackColor = True
         '
-        'Button1
+        'SpielenP
         '
-        Me.Button1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(603, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(243, 167)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Map"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.SpielenP.Controls.Add(Me.zurück_Spiel)
+        Me.SpielenP.Controls.Add(Me.PJoinB)
+        Me.SpielenP.Controls.Add(Me.Label3)
+        Me.SpielenP.Controls.Add(Me.GMJoinB)
+        Me.SpielenP.Location = New System.Drawing.Point(578, 12)
+        Me.SpielenP.Name = "SpielenP"
+        Me.SpielenP.Size = New System.Drawing.Size(276, 367)
+        Me.SpielenP.TabIndex = 7
+        Me.SpielenP.Visible = False
         '
-        'Button2
+        'zurück_Spiel
         '
-        Me.Button2.Location = New System.Drawing.Point(626, 226)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(167, 138)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Server"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.zurück_Spiel.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.zurück_Spiel.Location = New System.Drawing.Point(19, 308)
+        Me.zurück_Spiel.Name = "zurück_Spiel"
+        Me.zurück_Spiel.Size = New System.Drawing.Size(243, 45)
+        Me.zurück_Spiel.TabIndex = 4
+        Me.zurück_Spiel.Text = "Zurück"
+        Me.zurück_Spiel.UseVisualStyleBackColor = True
+        '
+        'PJoinB
+        '
+        Me.PJoinB.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.PJoinB.Location = New System.Drawing.Point(19, 231)
+        Me.PJoinB.Name = "PJoinB"
+        Me.PJoinB.Size = New System.Drawing.Size(243, 45)
+        Me.PJoinB.TabIndex = 3
+        Me.PJoinB.Text = "Player Join"
+        Me.PJoinB.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(84, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(113, 32)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Spielen"
+        '
+        'GMJoinB
+        '
+        Me.GMJoinB.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GMJoinB.Location = New System.Drawing.Point(19, 154)
+        Me.GMJoinB.Name = "GMJoinB"
+        Me.GMJoinB.Size = New System.Drawing.Size(243, 45)
+        Me.GMJoinB.TabIndex = 0
+        Me.GMJoinB.Text = "Gamemaster Join"
+        Me.GMJoinB.UseVisualStyleBackColor = True
         '
         'Hauptmenü
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1091, 391)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(1091, 669)
+        Me.Controls.Add(Me.SpielenP)
         Me.Controls.Add(Me.Chara1)
         Me.Controls.Add(Me.Haupt)
         Me.Name = "Hauptmenü"
@@ -187,6 +223,8 @@ Partial Class Hauptmenü
         Me.Haupt.PerformLayout()
         Me.Chara1.ResumeLayout(False)
         Me.Chara1.PerformLayout()
+        Me.SpielenP.ResumeLayout(False)
+        Me.SpielenP.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -201,7 +239,10 @@ Partial Class Hauptmenü
     Friend WithEvents zurück_chara As Button
     Friend WithEvents load_chara As Button
     Friend WithEvents Label4 As Label
-    Friend WithEvents neu_chara As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Neu_chara As Button
+    Friend WithEvents SpielenP As Panel
+    Friend WithEvents zurück_Spiel As Button
+    Friend WithEvents PJoinB As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents GMJoinB As Button
 End Class

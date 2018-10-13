@@ -1,4 +1,6 @@
 ﻿Public Class Hauptmenü
+
+
     Private Sub Hauptmenü_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -17,12 +19,19 @@
         Close()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Map.Show()
+    Private Sub SPIELEN_Click(sender As Object, e As EventArgs) Handles SPIELEN.Click
+        Haupt.Visible = False
+        SpielenP.Visible = True
+
     End Sub
 
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        Server.Show()
+    Private Sub zurück_Spiel_Click(sender As Object, e As EventArgs) Handles zurück_Spiel.Click
+        Haupt.Visible = True
+        SpielenP.Visible = False
+    End Sub
+
+    Private Sub neu_chara_Click(sender As Object, e As EventArgs) Handles Neu_chara.Click
+        Map
 
 
     End Sub
