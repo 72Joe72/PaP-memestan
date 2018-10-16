@@ -95,27 +95,29 @@ Partial Class Hauptmenü
         '
         'Haupt
         '
+        Me.Haupt.BackColor = System.Drawing.SystemColors.Highlight
         Me.Haupt.Controls.Add(Me.Beenden)
         Me.Haupt.Controls.Add(Me.CharaktererstellungB)
         Me.Haupt.Controls.Add(Me.Label2)
         Me.Haupt.Controls.Add(Me.Label1)
         Me.Haupt.Controls.Add(Me.SPIELEN)
-        Me.Haupt.Location = New System.Drawing.Point(12, 12)
+        Me.Haupt.Location = New System.Drawing.Point(381, 415)
         Me.Haupt.Name = "Haupt"
-        Me.Haupt.Size = New System.Drawing.Size(276, 367)
+        Me.Haupt.Size = New System.Drawing.Size(285, 382)
         Me.Haupt.TabIndex = 5
         '
         'Chara1
         '
+        Me.Chara1.BackColor = System.Drawing.SystemColors.Window
         Me.Chara1.Controls.Add(Me.zurück_chara)
         Me.Chara1.Controls.Add(Me.load_chara)
         Me.Chara1.Controls.Add(Me.Label4)
         Me.Chara1.Controls.Add(Me.Neu_chara)
-        Me.Chara1.Location = New System.Drawing.Point(294, 12)
+        Me.Chara1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Chara1.Location = New System.Drawing.Point(680, 30)
         Me.Chara1.Name = "Chara1"
         Me.Chara1.Size = New System.Drawing.Size(276, 367)
         Me.Chara1.TabIndex = 6
-        Me.Chara1.Visible = False
         '
         'zurück_chara
         '
@@ -159,15 +161,15 @@ Partial Class Hauptmenü
         '
         'SpielenP
         '
+        Me.SpielenP.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.SpielenP.Controls.Add(Me.zurück_Spiel)
         Me.SpielenP.Controls.Add(Me.PJoinB)
         Me.SpielenP.Controls.Add(Me.Label3)
         Me.SpielenP.Controls.Add(Me.GMJoinB)
-        Me.SpielenP.Location = New System.Drawing.Point(578, 12)
+        Me.SpielenP.Location = New System.Drawing.Point(381, 30)
         Me.SpielenP.Name = "SpielenP"
         Me.SpielenP.Size = New System.Drawing.Size(276, 367)
         Me.SpielenP.TabIndex = 7
-        Me.SpielenP.Visible = False
         '
         'zurück_Spiel
         '
@@ -213,11 +215,13 @@ Partial Class Hauptmenü
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1091, 669)
+        Me.ClientSize = New System.Drawing.Size(286, 394)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.Haupt)
         Me.Controls.Add(Me.SpielenP)
         Me.Controls.Add(Me.Chara1)
-        Me.Controls.Add(Me.Haupt)
         Me.Name = "Hauptmenü"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Hauptmenü"
         Me.Haupt.ResumeLayout(False)
         Me.Haupt.PerformLayout()

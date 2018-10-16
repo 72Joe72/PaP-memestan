@@ -37,6 +37,7 @@ Partial Class Charaktererstellung
         Me.B_H_Rasse = New System.Windows.Forms.Button()
         Me.B_H_waffe = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.L_AP = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.L_ATK = New System.Windows.Forms.Label()
@@ -56,13 +57,19 @@ Partial Class Charaktererstellung
         Me.Label9 = New System.Windows.Forms.Label()
         Me.L_HP = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.BZurück = New System.Windows.Forms.Button()
+        Me.BSpeichern = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.TB_REK, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TB_GES, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TB_DEF, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TB_ATK, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TB_HP, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -136,7 +143,7 @@ Partial Class Charaktererstellung
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(8, 78)
+        Me.Label3.Location = New System.Drawing.Point(12, 119)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(70, 25)
         Me.Label3.TabIndex = 8
@@ -146,7 +153,7 @@ Partial Class Charaktererstellung
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Mensch", "Elb", "Zwerg", "Kobold", "Wasser Echse", "Wüsten Echse", "Weiß Magier", "Schwarz Magier"})
-        Me.ComboBox1.Location = New System.Drawing.Point(181, 84)
+        Me.ComboBox1.Location = New System.Drawing.Point(185, 125)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(183, 21)
         Me.ComboBox1.TabIndex = 10
@@ -155,7 +162,7 @@ Partial Class Charaktererstellung
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(8, 112)
+        Me.Label4.Location = New System.Drawing.Point(12, 238)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(97, 25)
         Me.Label4.TabIndex = 12
@@ -165,7 +172,7 @@ Partial Class Charaktererstellung
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Einhänder-Schwert", "Zweihänder-Schwert", "Einhänder-Axt", "Zweihänder-Axt", "Einhänder-Stab", "Zweihänder-Stab", "Dolch", "Schild"})
-        Me.ComboBox2.Location = New System.Drawing.Point(181, 118)
+        Me.ComboBox2.Location = New System.Drawing.Point(185, 244)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(183, 21)
         Me.ComboBox2.TabIndex = 13
@@ -181,7 +188,7 @@ Partial Class Charaktererstellung
         '
         'B_H_Rasse
         '
-        Me.B_H_Rasse.Location = New System.Drawing.Point(370, 84)
+        Me.B_H_Rasse.Location = New System.Drawing.Point(374, 125)
         Me.B_H_Rasse.Name = "B_H_Rasse"
         Me.B_H_Rasse.Size = New System.Drawing.Size(29, 21)
         Me.B_H_Rasse.TabIndex = 15
@@ -190,7 +197,7 @@ Partial Class Charaktererstellung
         '
         'B_H_waffe
         '
-        Me.B_H_waffe.Location = New System.Drawing.Point(370, 118)
+        Me.B_H_waffe.Location = New System.Drawing.Point(374, 244)
         Me.B_H_waffe.Name = "B_H_waffe"
         Me.B_H_waffe.Size = New System.Drawing.Size(29, 21)
         Me.B_H_waffe.TabIndex = 16
@@ -223,6 +230,15 @@ Partial Class Charaktererstellung
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(410, 401)
         Me.Panel1.TabIndex = 17
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(186, 37)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(32, 23)
+        Me.Button2.TabIndex = 25
+        Me.Button2.Text = "?"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'L_AP
         '
@@ -411,20 +427,74 @@ Partial Class Charaktererstellung
         Me.Label11.TabIndex = 24
         Me.Label11.Text = "."
         '
-        'Button2
+        'Label10
         '
-        Me.Button2.Location = New System.Drawing.Point(186, 37)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(32, 23)
-        Me.Button2.TabIndex = 25
-        Me.Button2.Text = "?"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Arial Narrow", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(12, 79)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(114, 25)
+        Me.Label10.TabIndex = 25
+        Me.Label10.Text = "Geschlecht:"
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(3, 6)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(68, 17)
+        Me.RadioButton1.TabIndex = 27
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Männlich"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(95, 6)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(66, 17)
+        Me.RadioButton2.TabIndex = 28
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Weiblich"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.RadioButton2)
+        Me.Panel2.Controls.Add(Me.RadioButton1)
+        Me.Panel2.Location = New System.Drawing.Point(181, 79)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(187, 30)
+        Me.Panel2.TabIndex = 29
+        '
+        'BZurück
+        '
+        Me.BZurück.Location = New System.Drawing.Point(12, 380)
+        Me.BZurück.Name = "BZurück"
+        Me.BZurück.Size = New System.Drawing.Size(170, 26)
+        Me.BZurück.TabIndex = 30
+        Me.BZurück.Text = "Zurück"
+        Me.BZurück.UseVisualStyleBackColor = True
+        '
+        'BSpeichern
+        '
+        Me.BSpeichern.Location = New System.Drawing.Point(188, 380)
+        Me.BSpeichern.Name = "BSpeichern"
+        Me.BSpeichern.Size = New System.Drawing.Size(170, 26)
+        Me.BSpeichern.TabIndex = 31
+        Me.BSpeichern.Text = "Spiechern"
+        Me.BSpeichern.UseVisualStyleBackColor = True
         '
         'Charaktererstellung
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(832, 418)
+        Me.Controls.Add(Me.BSpeichern)
+        Me.Controls.Add(Me.BZurück)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.B_H_waffe)
         Me.Controls.Add(Me.B_H_Rasse)
@@ -449,6 +519,8 @@ Partial Class Charaktererstellung
         CType(Me.TB_DEF, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TB_ATK, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TB_HP, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -489,4 +561,10 @@ Partial Class Charaktererstellung
     Friend WithEvents L_AP As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label10 As Label
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents BZurück As Button
+    Friend WithEvents BSpeichern As Button
 End Class

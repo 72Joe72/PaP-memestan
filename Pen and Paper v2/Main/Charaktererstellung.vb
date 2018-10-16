@@ -13,6 +13,8 @@
         L_Id.Text = ran_id
         ComboBox1.Text = "Mensch"
         L_Attribut.Text = "Mensch"
+        RadioButton1.Checked = True
+        L_AP.Text = 0
 
 
         L_HP.Text = TB_HP.Value
@@ -49,7 +51,7 @@
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         L_Attribut.Text = ComboBox1.Text
-
+        L_AP.Text = 0
 
         If ComboBox1.Text = "Mensch" Then
             TB_HP.Minimum = 15
@@ -355,5 +357,31 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         MsgBox("Die Attributpunkte müssen auf 0 sein um den Charakter zu speichern")
 
+    End Sub
+
+    Private Sub BZurück_Click(sender As Object, e As EventArgs) Handles BZurück.Click
+
+        If MsgBox("Wollen sie ohne Spiechern zurückkehren ?", vbYesNo) = vbYes Then
+            Close()
+        End If
+
+    End Sub
+
+    Private Sub BSpeichern_Click(sender As Object, e As EventArgs) Handles BSpeichern.Click
+        If TextBox1.Text = Nothing Then
+            MsgBox("Im Namensfeld ist nichts eingetragen !!!", vbCritical)
+        Else
+            If Not L_AP.Text = 0 Then
+                MsgBox("Die Attribut Punkte mussen auf 0 stehen", vbCritical)
+            Else
+
+                MsgBox("Funktion nicht verfügbar xd", vbOKOnly)
+
+
+
+
+
+            End If
+        End If
     End Sub
 End Class
