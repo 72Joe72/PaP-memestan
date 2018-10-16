@@ -72,13 +72,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main\Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main\Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Main\Charaktererstellung.Designer.vb">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
     </Compile>
@@ -120,9 +113,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Main\Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main\Charaktererstellung.resx">
       <DependentUpon>Charaktererstellung.vb</DependentUpon>
     </EmbeddedResource>
@@ -462,6 +452,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\J_10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\lupe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

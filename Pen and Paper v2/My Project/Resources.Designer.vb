@@ -1061,41 +1061,59 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Sucht eine lokalisierte Zeichenfolge, die A1_A1 = False
-        '''A1_A2 = False
-        '''A1_A3 = False
-        '''A1_A4 = False
-        '''A1_A5 = False
-        '''A1_B1 = False
-        '''A1_B2 = False
-        '''A1_B3 = False
-        '''A1_B4 = False
-        '''A1_B5 = False
-        '''A1_C1 = False
-        '''A1_C2 = False
-        '''A1_C3 = False
-        '''A1_C4 = False
-        '''A1_C5 = False
-        '''A1_D1 = False
-        '''A1_D2 = False
-        '''A1_D3 = False
-        '''A1_D4 = False
-        '''A1_D5 = False
-        '''A1_E1 = False
-        '''A1_E2 = False
-        '''A1_E3 = False
-        '''A1_E4 = False
-        '''A1_E5 = False
-        '''A2_A1 = False
-        '''A2_A2 = False
-        '''A2_A3 = False
-        '''A2_A4 = False
-        '''A2_A5 = False
-        '''A2_B1 = False
-        '''A2_B2 = False
-        '''A2_B3 = False
-        '''A2_B4 = False
-        '''A2 [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Public ReadOnly Property lupe() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("lupe", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Zeichenfolge, die A1_A1=True
+        '''A1_A2=True
+        '''A1_A3=True
+        '''A1_A4=True
+        '''A1_A5=True
+        '''A1_B1=True
+        '''A1_B2=True
+        '''A1_B3=True
+        '''A1_B4=True
+        '''A1_B5=True
+        '''A1_C1=True
+        '''A1_C2=True
+        '''A1_C3=True
+        '''A1_C4=True
+        '''A1_C5=True
+        '''A1_D1=True
+        '''A1_D2=True
+        '''A1_D3=True
+        '''A1_D4=True
+        '''A1_D5=True
+        '''A1_E1=True
+        '''A1_E2=True
+        '''A1_E3=True
+        '''A1_E4=True
+        '''A1_E5=True
+        '''A2_A1=True
+        '''A2_A2=True
+        '''A2_A3=True
+        '''A2_A4=True
+        '''A2_A5=True
+        '''A2_B1=True
+        '''A2_B2=True
+        '''A2_B3=True
+        '''A2_B4=True
+        '''A2_B5=True
+        '''A2_C1=True
+        '''A2_C2=True
+        '''A2_C3=True
+        '''A2_C4=True
+        '''A2_C5=True
+        '''A2_D1=True
+        '''A2_D2=True
+        '''A2_D3=Tr [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
         '''</summary>
         Public ReadOnly Property Player() As String
             Get
