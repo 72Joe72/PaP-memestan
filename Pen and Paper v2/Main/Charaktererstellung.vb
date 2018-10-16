@@ -1,4 +1,9 @@
-﻿Public Class Charaktererstellung
+﻿Imports System
+Imports System.IO
+Imports System.Text
+Imports System.Environment
+
+Public Class Charaktererstellung
     Public Function GetRandom(ByVal Min As Integer, ByVal Max As Integer) As Integer
         ' by making Generator static, we preserve the same instance '
         ' (i.e., do not create new instances with the same seed over and over) '
@@ -28,7 +33,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim ran_id As Integer = GetRandom(100000000, 1000000000)
-        L_Id.text = ran_id
+        L_Id.Text = ran_id
     End Sub
 
 
@@ -374,13 +379,34 @@
             If Not L_AP.Text = 0 Then
                 MsgBox("Die Attribut Punkte mussen auf 0 stehen", vbCritical)
             Else
+                Dim geschlecht As String
+                If RadioButton1.Checked Then
+                    geschlecht = "Mänlich"
+                Else
+                    geschlecht = "Weiblich"
+                End If
 
-                MsgBox("Funktion nicht verfügbar xd", vbOKOnly)
 
+                'Variabeln ...
+                Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
+                Dim YourPath As String = appData + "\PaP-Memestan"
+                Dim list As String
 
+                'liste füllen....
+                list = "ID: " + L_Id.Text.ToString + vbCrLf + "NAME: " + TextBox1.Text.ToString + vbCrLf + "GESCHLECHT: " + geschlecht.ToString + vbCrLf + "RASSE: " + ComboBox1.Text.ToString + vbCrLf + "ERSTWAFFE: " + ComboBox2.Text.ToString + vbCrLf + "HP: " + TB_HP.Value.ToString + vbCrLf + "ATK: " + TB_ATK.Value.ToString + vbCrLf + "DEF: " + TB_DEF.Value.ToString + vbCrLf + "GES: " + TB_GES.Value.ToString + vbCrLf + "REK: " + TB_REK.Value.ToString + vbCrLf
 
+                'Create Path
+                If (Not System.IO.Directory.Exists(YourPath)) Then
+                    System.IO.Directory.CreateDirectory(YourPath)
+                End If
 
+                'joe datei erstellen mit infos
+                Dim fs As FileStream = File.Create(YourPath + "\" + L_Id.Text + ".joe")
+                Dim info As Byte() = New UTF8Encoding(True).GetBytes(list)
+                fs.Write(info, 0, info.Length)
+                fs.Close()
 
+                MsgBox("Charakter erfolgreich erstellt !!!", vbInformation)
             End If
         End If
     End Sub

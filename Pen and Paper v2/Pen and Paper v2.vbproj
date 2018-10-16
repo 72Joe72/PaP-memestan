@@ -90,6 +90,18 @@
     <Compile Include="Main\Inventar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\MainGame.Designer.vb">
+      <DependentUpon>MainGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\MainGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\NormalPlayerJoin.Designer.vb">
+      <DependentUpon>NormalPlayerJoin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\NormalPlayerJoin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Maps\Map.Designer.vb">
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
@@ -121,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Inventar.resx">
       <DependentUpon>Inventar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\NormalPlayerJoin.resx">
+      <DependentUpon>NormalPlayerJoin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>

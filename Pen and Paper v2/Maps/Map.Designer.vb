@@ -184,11 +184,10 @@ Partial Class Map
         Me.SA2 = New System.Windows.Forms.PictureBox()
         Me.SA1 = New System.Windows.Forms.PictureBox()
         Me.SMX = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Zurück2 = New System.Windows.Forms.PictureBox()
-        Me.Zurück = New System.Windows.Forms.PictureBox()
         Me.EventLog1 = New System.Diagnostics.EventLog()
+        Me.Zurück = New System.Windows.Forms.PictureBox()
         Me.MainMap.SuspendLayout()
         CType(Me.J10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.J9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -317,16 +316,18 @@ Partial Class Map
         CType(Me.SA2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MainMap
         '
+        Me.MainMap.Controls.Add(Me.Zurück)
+        Me.MainMap.Controls.Add(Me.PictureBox1)
         Me.MainMap.Controls.Add(Me.Label21)
+        Me.MainMap.Controls.Add(Me.Zurück2)
         Me.MainMap.Controls.Add(Me.Label20)
         Me.MainMap.Controls.Add(Me.Label19)
         Me.MainMap.Controls.Add(Me.Label18)
@@ -447,9 +448,10 @@ Partial Class Map
         Me.MainMap.Controls.Add(Me.A3)
         Me.MainMap.Controls.Add(Me.A2)
         Me.MainMap.Controls.Add(Me.A1)
-        Me.MainMap.Location = New System.Drawing.Point(12, 12)
+        Me.MainMap.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MainMap.Location = New System.Drawing.Point(0, 0)
         Me.MainMap.Name = "MainMap"
-        Me.MainMap.Size = New System.Drawing.Size(553, 553)
+        Me.MainMap.Size = New System.Drawing.Size(1075, 570)
         Me.MainMap.TabIndex = 246
         '
         'Label21
@@ -1963,20 +1965,10 @@ Partial Class Map
         Me.SMX.TabIndex = 248
         Me.SMX.TabStop = False
         '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Controls.Add(Me.Zurück2)
-        Me.Panel1.Controls.Add(Me.Zurück)
-        Me.Panel1.Location = New System.Drawing.Point(571, 12)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(80, 557)
-        Me.Panel1.TabIndex = 249
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.lupe
-        Me.PictureBox1.Location = New System.Drawing.Point(13, 481)
+        Me.PictureBox1.Location = New System.Drawing.Point(577, 495)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(53, 55)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1986,33 +1978,32 @@ Partial Class Map
         'Zurück2
         '
         Me.Zurück2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
-        Me.Zurück2.Location = New System.Drawing.Point(13, 54)
+        Me.Zurück2.Location = New System.Drawing.Point(577, 45)
         Me.Zurück2.Name = "Zurück2"
         Me.Zurück2.Size = New System.Drawing.Size(53, 55)
         Me.Zurück2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Zurück2.TabIndex = 1
         Me.Zurück2.TabStop = False
         '
+        'EventLog1
+        '
+        Me.EventLog1.SynchronizingObject = Me
+        '
         'Zurück
         '
         Me.Zurück.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
-        Me.Zurück.Location = New System.Drawing.Point(13, 54)
+        Me.Zurück.Location = New System.Drawing.Point(577, 45)
         Me.Zurück.Name = "Zurück"
         Me.Zurück.Size = New System.Drawing.Size(53, 55)
         Me.Zurück.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Zurück.TabIndex = 0
         Me.Zurück.TabStop = False
         '
-        'EventLog1
-        '
-        Me.EventLog1.SynchronizingObject = Me
-        '
         'Map
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(655, 570)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(1075, 570)
         Me.Controls.Add(Me.MainMap)
         Me.Controls.Add(Me.SubMap)
         Me.Name = "Map"
@@ -2147,11 +2138,10 @@ Partial Class Map
         CType(Me.SA2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2315,10 +2305,9 @@ Partial Class Map
     Friend WithEvents Label24 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Zurück As PictureBox
     Friend WithEvents Zurück2 As PictureBox
     Friend WithEvents SMX As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents EventLog1 As EventLog
+    Friend WithEvents Zurück As PictureBox
 End Class

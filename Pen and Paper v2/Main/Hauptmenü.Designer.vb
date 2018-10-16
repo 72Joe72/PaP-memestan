@@ -38,6 +38,7 @@ Partial Class Hauptmenü
         Me.PJoinB = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GMJoinB = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Haupt.SuspendLayout()
         Me.Chara1.SuspendLayout()
         Me.SpielenP.SuspendLayout()
@@ -211,12 +212,22 @@ Partial Class Hauptmenü
         Me.GMJoinB.Text = "Gamemaster Join"
         Me.GMJoinB.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(51, 543)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(126, 82)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Hauptmenü
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(286, 394)
+        Me.ClientSize = New System.Drawing.Size(284, 386)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Haupt)
         Me.Controls.Add(Me.SpielenP)
         Me.Controls.Add(Me.Chara1)
@@ -249,4 +260,5 @@ Partial Class Hauptmenü
     Friend WithEvents PJoinB As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents GMJoinB As Button
+    Friend WithEvents Button1 As Button
 End Class
