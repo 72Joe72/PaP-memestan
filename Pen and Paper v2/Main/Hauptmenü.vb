@@ -5,7 +5,7 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Charaktererstellung.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles CharaktererstellungB.Click
         Haupt.Visible = False
         Chara1.Visible = True
     End Sub
@@ -31,7 +31,9 @@
     End Sub
 
     Private Sub neu_chara_Click(sender As Object, e As EventArgs) Handles Neu_chara.Click
-        Map
+        Charaktererstellung.Show()
+
+
 
 
     End Sub

@@ -25,7 +25,7 @@ Partial Class Hauptmenü
         Me.SPIELEN = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Charaktererstellung = New System.Windows.Forms.Button()
+        Me.CharaktererstellungB = New System.Windows.Forms.Button()
         Me.Beenden = New System.Windows.Forms.Button()
         Me.Haupt = New System.Windows.Forms.Panel()
         Me.Chara1 = New System.Windows.Forms.Panel()
@@ -73,15 +73,15 @@ Partial Class Hauptmenü
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Memestan"
         '
-        'Charaktererstellung
+        'CharaktererstellungB
         '
-        Me.Charaktererstellung.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Charaktererstellung.Location = New System.Drawing.Point(19, 231)
-        Me.Charaktererstellung.Name = "Charaktererstellung"
-        Me.Charaktererstellung.Size = New System.Drawing.Size(243, 45)
-        Me.Charaktererstellung.TabIndex = 3
-        Me.Charaktererstellung.Text = "Charaktererstellung"
-        Me.Charaktererstellung.UseVisualStyleBackColor = True
+        Me.CharaktererstellungB.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.CharaktererstellungB.Location = New System.Drawing.Point(19, 231)
+        Me.CharaktererstellungB.Name = "CharaktererstellungB"
+        Me.CharaktererstellungB.Size = New System.Drawing.Size(243, 45)
+        Me.CharaktererstellungB.TabIndex = 3
+        Me.CharaktererstellungB.Text = "Charaktererstellung"
+        Me.CharaktererstellungB.UseVisualStyleBackColor = True
         '
         'Beenden
         '
@@ -96,7 +96,7 @@ Partial Class Hauptmenü
         'Haupt
         '
         Me.Haupt.Controls.Add(Me.Beenden)
-        Me.Haupt.Controls.Add(Me.Charaktererstellung)
+        Me.Haupt.Controls.Add(Me.CharaktererstellungB)
         Me.Haupt.Controls.Add(Me.Label2)
         Me.Haupt.Controls.Add(Me.Label1)
         Me.Haupt.Controls.Add(Me.SPIELEN)
@@ -232,7 +232,7 @@ Partial Class Hauptmenü
     Friend WithEvents SPIELEN As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Charaktererstellung As Button
+    Friend WithEvents CharaktererstellungB As Button
     Friend WithEvents Beenden As Button
     Friend WithEvents Haupt As Panel
     Friend WithEvents Chara1 As Panel
