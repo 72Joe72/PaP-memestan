@@ -4,6 +4,27 @@ Imports System.Text
 Imports System.Environment
 
 Public Class Charaktererstellung
+    Public Function GetText(ByVal Identifier As String) As String
+        'ReSet Function
+        Try
+            Dim appData As String = GetFolderPath(SpecialFolder.ApplicationData)
+            Dim YourPath As String = appData + "\PaP-Memestan"
+            Dim line As New IO.StreamReader(YourPath + "\info.joe")
+            Dim Result As String = ""
+
+            While line.Peek > -1
+                Dim out As String = line.ReadLine()
+
+                If out.StartsWith(Identifier) Then
+                    Result = out '.Substring(Identifier.Length + 1)
+                End If
+            End While
+            Return Result
+
+        Catch ex As Exception
+        End Try
+
+    End Function
     Public Function GetRandom(ByVal Min As Integer, ByVal Max As Integer) As Integer
         ' by making Generator static, we preserve the same instance '
         ' (i.e., do not create new instances with the same seed over and over) '
@@ -381,7 +402,7 @@ Public Class Charaktererstellung
             Else
                 Dim geschlecht As String
                 If RadioButton1.Checked Then
-                    geschlecht = "Mänlich"
+                    geschlecht = "Männlich"
                 Else
                     geschlecht = "Weiblich"
                 End If
@@ -406,8 +427,18 @@ Public Class Charaktererstellung
                 fs.Write(info, 0, info.Length)
                 fs.Close()
 
+
+                If (Not System.IO.Directory.Exists(YourPath + "\info.joe")) Then
+                    Dim fss As FileStream = File.Create(YourPath + "\info.joe")
+                    Dim info3 As Byte() = New UTF8Encoding(True).GetBytes("1: " + L_Id.Text)
+                    fss.Write(info3, 0, info3.Length)
+                    fss.Close()
+
+                End If
+
                 MsgBox("Charakter erfolgreich erstellt !!!", vbInformation)
+                Close()
+                End If
             End If
-        End If
     End Sub
 End Class

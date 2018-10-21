@@ -24,7 +24,10 @@ Partial Class Map
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Map))
         Me.MainMap = New System.Windows.Forms.Panel()
+        Me.Zurück = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label21 = New System.Windows.Forms.Label()
+        Me.Zurück2 = New System.Windows.Forms.PictureBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -184,11 +187,11 @@ Partial Class Map
         Me.SA2 = New System.Windows.Forms.PictureBox()
         Me.SA1 = New System.Windows.Forms.PictureBox()
         Me.SMX = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Zurück2 = New System.Windows.Forms.PictureBox()
         Me.EventLog1 = New System.Diagnostics.EventLog()
-        Me.Zurück = New System.Windows.Forms.PictureBox()
         Me.MainMap.SuspendLayout()
+        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.J10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.J9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.J8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -316,10 +319,7 @@ Partial Class Map
         CType(Me.SA2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MainMap
@@ -448,11 +448,30 @@ Partial Class Map
         Me.MainMap.Controls.Add(Me.A3)
         Me.MainMap.Controls.Add(Me.A2)
         Me.MainMap.Controls.Add(Me.A1)
-        Me.MainMap.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MainMap.Location = New System.Drawing.Point(0, 0)
         Me.MainMap.Name = "MainMap"
-        Me.MainMap.Size = New System.Drawing.Size(1075, 570)
+        Me.MainMap.Size = New System.Drawing.Size(652, 570)
         Me.MainMap.TabIndex = 246
+        '
+        'Zurück
+        '
+        Me.Zurück.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
+        Me.Zurück.Location = New System.Drawing.Point(577, 45)
+        Me.Zurück.Name = "Zurück"
+        Me.Zurück.Size = New System.Drawing.Size(53, 55)
+        Me.Zurück.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Zurück.TabIndex = 0
+        Me.Zurück.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.lupe
+        Me.PictureBox1.Location = New System.Drawing.Point(577, 495)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(53, 55)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 250
+        Me.PictureBox1.TabStop = False
         '
         'Label21
         '
@@ -463,6 +482,16 @@ Partial Class Map
         Me.Label21.Size = New System.Drawing.Size(76, 18)
         Me.Label21.TabIndex = 244
         Me.Label21.Text = "Main Map"
+        '
+        'Zurück2
+        '
+        Me.Zurück2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
+        Me.Zurück2.Location = New System.Drawing.Point(577, 45)
+        Me.Zurück2.Name = "Zurück2"
+        Me.Zurück2.Size = New System.Drawing.Size(53, 55)
+        Me.Zurück2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Zurück2.TabIndex = 1
+        Me.Zurück2.TabStop = False
         '
         'Label20
         '
@@ -1965,51 +1994,24 @@ Partial Class Map
         Me.SMX.TabIndex = 248
         Me.SMX.TabStop = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.lupe
-        Me.PictureBox1.Location = New System.Drawing.Point(577, 495)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(53, 55)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 250
-        Me.PictureBox1.TabStop = False
-        '
-        'Zurück2
-        '
-        Me.Zurück2.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
-        Me.Zurück2.Location = New System.Drawing.Point(577, 45)
-        Me.Zurück2.Name = "Zurück2"
-        Me.Zurück2.Size = New System.Drawing.Size(53, 55)
-        Me.Zurück2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Zurück2.TabIndex = 1
-        Me.Zurück2.TabStop = False
-        '
         'EventLog1
         '
         Me.EventLog1.SynchronizingObject = Me
-        '
-        'Zurück
-        '
-        Me.Zurück.Image = Global.Pen_and_Paper_v2.My.Resources.Resources.zuruck_pfeil_links_symbol
-        Me.Zurück.Location = New System.Drawing.Point(577, 45)
-        Me.Zurück.Name = "Zurück"
-        Me.Zurück.Size = New System.Drawing.Size(53, 55)
-        Me.Zurück.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Zurück.TabIndex = 0
-        Me.Zurück.TabStop = False
         '
         'Map
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1075, 570)
+        Me.ClientSize = New System.Drawing.Size(679, 571)
         Me.Controls.Add(Me.MainMap)
         Me.Controls.Add(Me.SubMap)
         Me.Name = "Map"
         Me.Text = "Main Map"
         Me.MainMap.ResumeLayout(False)
         Me.MainMap.PerformLayout()
+        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.J10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.J9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.J8, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2138,10 +2140,7 @@ Partial Class Map
         CType(Me.SA2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SA1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SMX, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Zurück2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Zurück, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

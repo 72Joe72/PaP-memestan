@@ -96,16 +96,22 @@
     <Compile Include="Main\MainGame.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\NormalPlayerJoin.Designer.vb">
-      <DependentUpon>NormalPlayerJoin.vb</DependentUpon>
+    <Compile Include="Maps\Chara_info.Designer.vb">
+      <DependentUpon>Chara_info.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\NormalPlayerJoin.vb">
+    <Compile Include="Maps\Chara_info.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Maps\Map.Designer.vb">
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
     <Compile Include="Maps\Map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps\NormalJoin.Designer.vb">
+      <DependentUpon>NormalJoin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\NormalJoin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -134,11 +140,17 @@
     <EmbeddedResource Include="Main\Inventar.resx">
       <DependentUpon>Inventar.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\NormalPlayerJoin.resx">
-      <DependentUpon>NormalPlayerJoin.vb</DependentUpon>
+    <EmbeddedResource Include="Main\MainGame.resx">
+      <DependentUpon>MainGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\Chara_info.resx">
+      <DependentUpon>Chara_info.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\NormalJoin.resx">
+      <DependentUpon>NormalJoin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>

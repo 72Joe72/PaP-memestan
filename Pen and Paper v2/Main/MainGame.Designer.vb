@@ -22,9 +22,28 @@ Partial Class MainGame
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.LB_info = New System.Windows.Forms.ListBox()
+        Me.SuspendLayout()
+        '
+        'LB_info
+        '
+        Me.LB_info.FormattingEnabled = True
+        Me.LB_info.Location = New System.Drawing.Point(12, 12)
+        Me.LB_info.Name = "LB_info"
+        Me.LB_info.Size = New System.Drawing.Size(79, 69)
+        Me.LB_info.TabIndex = 0
+        '
+        'MainGame
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LB_info)
+        Me.Name = "MainGame"
         Me.Text = "MainGame"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents LB_info As ListBox
 End Class

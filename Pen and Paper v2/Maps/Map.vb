@@ -19108,4 +19108,8 @@ Public Class Map
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Process.Start("C:\WINDOWS\system32\magnify.exe")
     End Sub
+
+    Private Sub MainMap_Paint(sender As Object, e As PaintEventArgs) Handles MainMap.Paint
+
+    End Sub
 End Class

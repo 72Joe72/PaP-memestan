@@ -126,7 +126,7 @@ Partial Class Charaktererstellung
         '
         Me.TextBox1.Location = New System.Drawing.Point(181, 49)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(187, 20)
         Me.TextBox1.TabIndex = 5
         '
         'B_H_id
@@ -153,9 +153,9 @@ Partial Class Charaktererstellung
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Mensch", "Elb", "Zwerg", "Kobold", "Wasser Echse", "Wüsten Echse", "Weiß Magier", "Schwarz Magier"})
-        Me.ComboBox1.Location = New System.Drawing.Point(185, 125)
+        Me.ComboBox1.Location = New System.Drawing.Point(181, 125)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(183, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(187, 21)
         Me.ComboBox1.TabIndex = 10
         '
         'Label4
@@ -172,14 +172,14 @@ Partial Class Charaktererstellung
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Einhänder-Schwert", "Zweihänder-Schwert", "Einhänder-Axt", "Zweihänder-Axt", "Einhänder-Stab", "Zweihänder-Stab", "Dolch", "Schild"})
-        Me.ComboBox2.Location = New System.Drawing.Point(185, 244)
+        Me.ComboBox2.Location = New System.Drawing.Point(178, 244)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(183, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(190, 21)
         Me.ComboBox2.TabIndex = 13
         '
         'B_H_Name
         '
-        Me.B_H_Name.Location = New System.Drawing.Point(370, 49)
+        Me.B_H_Name.Location = New System.Drawing.Point(374, 49)
         Me.B_H_Name.Name = "B_H_Name"
         Me.B_H_Name.Size = New System.Drawing.Size(29, 23)
         Me.B_H_Name.TabIndex = 14
@@ -490,7 +490,7 @@ Partial Class Charaktererstellung
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(832, 418)
+        Me.ClientSize = New System.Drawing.Size(837, 420)
         Me.Controls.Add(Me.BSpeichern)
         Me.Controls.Add(Me.BZurück)
         Me.Controls.Add(Me.Panel2)
