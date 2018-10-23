@@ -159,6 +159,7 @@ Partial Class NormalJoin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(518, 454)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel_Chara_Auto)
         Me.Controls.Add(Me.Panel_Chara_Manu)
         Me.Controls.Add(Me.Button3)
@@ -167,7 +168,12 @@ Partial Class NormalJoin
         Me.Controls.Add(Me.B_connect)
         Me.Controls.Add(Me.TB_IP)
         Me.Controls.Add(Me.Button2)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "NormalJoin"
+        Me.ShowIcon = False
+        Me.ShowInTaskbar = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "NormalJoin"
         Me.Panel_Chara_Auto.ResumeLayout(False)
         Me.Panel_Chara_Auto.PerformLayout()

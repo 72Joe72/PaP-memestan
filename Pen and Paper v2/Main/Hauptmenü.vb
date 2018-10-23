@@ -58,4 +58,9 @@
 
 
     End Sub
+
+    Private Sub GMJoinB_Click(sender As Object, e As EventArgs) Handles GMJoinB.Click
+        MasterJoin.Show()
+
+    End Sub
 End Class

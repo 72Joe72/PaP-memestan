@@ -1,6 +1,8 @@
 ﻿Imports System.Net.Sockets
 Imports System.IO
-Public Class MainGame
+Public Class MainGameMaster
+
+
     Private stream As NetworkStream
     Private streamw As StreamWriter
     Private streamr As StreamReader
@@ -27,10 +29,11 @@ Public Class MainGame
             t.Interrupt()
             Close()
 
+
         End Try
 
         If client.Client.Connected = True Then
-            streamw.Write("CON:" + Hauptmenü.Chara + vbCrLf)
+            streamw.Write("Gott ist erschienen !!!" + vbCrLf)
             streamw.Flush()
         End If
 
@@ -51,7 +54,17 @@ Public Class MainGame
     Private Sub AddItem(ByVal s As String)
         LB_info.Items.Add(s)
         Label1.Text = s
-    End Sub
+        Dim Split = s.Substring(0, 4)
+        If Split = "CON:" Then
+            streamw.Write("Info:" + s.Substring(4) + " connected to Game" + vbCrLf)
+            streamw.Flush()
 
+
+        End If
+
+
+
+
+    End Sub
 
 End Class

@@ -96,6 +96,12 @@
     <Compile Include="Main\MainGame.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\MainGameMaster.Designer.vb">
+      <DependentUpon>MainGameMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\MainGameMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Maps\Chara_info.Designer.vb">
       <DependentUpon>Chara_info.vb</DependentUpon>
     </Compile>
@@ -106,6 +112,12 @@
       <DependentUpon>Map.vb</DependentUpon>
     </Compile>
     <Compile Include="Maps\Map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps\MasterJoin.Designer.vb">
+      <DependentUpon>MasterJoin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps\MasterJoin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Maps\NormalJoin.Designer.vb">
@@ -143,11 +155,17 @@
     <EmbeddedResource Include="Main\MainGame.resx">
       <DependentUpon>MainGame.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\MainGameMaster.resx">
+      <DependentUpon>MainGameMaster.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Maps\Chara_info.resx">
       <DependentUpon>Chara_info.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\Map.resx">
       <DependentUpon>Map.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps\MasterJoin.resx">
+      <DependentUpon>MasterJoin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maps\NormalJoin.resx">
       <DependentUpon>NormalJoin.vb</DependentUpon>

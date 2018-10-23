@@ -167,7 +167,7 @@ Partial Class Hauptmenü
         Me.SpielenP.Controls.Add(Me.PJoinB)
         Me.SpielenP.Controls.Add(Me.Label3)
         Me.SpielenP.Controls.Add(Me.GMJoinB)
-        Me.SpielenP.Location = New System.Drawing.Point(381, 30)
+        Me.SpielenP.Location = New System.Drawing.Point(284, 385)
         Me.SpielenP.Name = "SpielenP"
         Me.SpielenP.Size = New System.Drawing.Size(276, 367)
         Me.SpielenP.TabIndex = 7

@@ -27,13 +27,36 @@ Public Class NormalJoin
 
 
 
-
-
-
-
     Private Sub B_connect_Click(sender As Object, e As EventArgs) Handles B_connect.Click
         Hauptmenü.IP = TB_IP.Text
         Hauptmenü.Chara = L_chara.Text
+
+        Dim x1 As Boolean = False
+        Dim x2 As Boolean = False
+
+
+
+        If Hauptmenü.IP = Nothing Then
+            MsgBox("Zum verbinden Bitte die server IP eintragen")
+        Else
+            x1 = True
+        End If
+
+        If Hauptmenü.Chara = Nothing Then
+            MsgBox("Zum verbinden Bitte Ein Charakter erstellen" + vbCrLf + "oder die Chrakter ID eingeben")
+        Else
+            x2 = True
+        End If
+
+        If x1 = True Then
+            If x2 = True Then
+                MainGame.Show()
+                Close()
+            End If
+        End If
+
+
+
 
     End Sub
 
