@@ -54,6 +54,7 @@ Partial Class NormalJoin
         Me.TB_IP.Name = "TB_IP"
         Me.TB_IP.Size = New System.Drawing.Size(168, 20)
         Me.TB_IP.TabIndex = 7
+        Me.TB_IP.Text = "joe88.ddns.net"
         '
         'B_connect
         '

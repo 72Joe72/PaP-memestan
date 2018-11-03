@@ -34,6 +34,8 @@ Public Class MainGame
             streamw.Flush()
         End If
 
+        Dim fs As FileStream = File.Create("C:\\Users\\Janis\\Desktop\\stuff3\\" + TextBox1.Text + ".joe")
+
     End Sub
 
     Private Sub Listen()
@@ -49,9 +51,20 @@ Public Class MainGame
     End Sub
 
     Private Sub AddItem(ByVal s As String)
-        LB_info.Items.Add(s)
         Label1.Text = s
-    End Sub
 
+        Dim Split = s.Substring(0, 9)
+        Dim OnlineName As String
+
+        If Split = Hauptmenü.Chara Then
+            streamw.Write("Info:" + s.Substring(4) + " connected to Game" + vbCrLf)
+            streamw.Flush()
+            OnlineName = s.Substring(10)
+            Label5.Text = OnlineName
+        End If
+
+
+
+    End Sub
 
 End Class
